@@ -1,0 +1,16 @@
+nav{
+    font-size: 2em;
+    display: flex;
+    position: sticky;
+    width: 100%;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.nav-contents{
+    padding: 10px;
+}
+
+.homepage-icon{
+    border: 1px solid;
+}

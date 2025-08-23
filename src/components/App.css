@@ -1,0 +1,31 @@
+body{
+    background-color: black;
+    font-family: 'Courier New', Courier, monospace;
+    color: #89ff69;
+    border-color: #89ff69;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    font-weight: normal;
+}
+
+.content{
+    display: flex;
+    align-items: center;
+    width: 100vw;
+    flex-direction: column;
+}
+
+a{
+    color: inherit;
+    text-decoration: none;
+}
+
+.app{
+    margin: 10px;
+}
