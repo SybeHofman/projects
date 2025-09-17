@@ -6,15 +6,15 @@ function NavBar() {
             
             <span className="nav-contents homepage-icon">SH</span>
     
-            <a href = "#about">
+            <a href = "https://sybehofman.github.io/homepage/#about">
                 <span className="nav-contents about">ABOUT</span>
             </a>
             |
-            <a href = "#projects">
+            <a href = "https://sybehofman.github.io/projects/">
                 <span className="nav-contents projects">PROJECTS</span>
             </a>
             |
-            <a href = "#contacts">
+            <a href = "https://sybehofman.github.io/homepage/#contacts">
                 <span className="nav-contents contacts">CONTACTS</span>
             </a>
         </nav>
