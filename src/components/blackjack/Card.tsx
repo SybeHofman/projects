@@ -25,7 +25,7 @@ function Card({rank, suit} : Cardprops) {
 
     return (
         <div>
-            <img alt = {rankString + " of " + suitString} src= {"../assets/SVG-Cards/2_of_clubs.svg"}></img>
+            <img alt = {rankString + " of " + suitString} src= {"/SVG-Cards/2_of_clubs.svg"}></img>
         </div>
     )
 }
