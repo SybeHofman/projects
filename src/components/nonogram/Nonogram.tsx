@@ -149,7 +149,7 @@ function Cell({grid, setGrid, location} : CellProps) {
         setFilled(false);
         setGrid(grid.map((row, r) =>
             row.map((cell, c) =>
-                (r === rowIndex && c === cellIndex) ? (cell === 1 ? 0 : 1) : cell
+                (r === rowIndex && c === cellIndex) ? 0 : cell
             )
         ));
         setCrossed(!crossed);
